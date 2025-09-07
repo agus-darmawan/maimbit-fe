@@ -7,7 +7,7 @@ type Goal = {
   iconSrc: string;
 };
 
-const goals: Goal[] = [
+export const goals: Goal[] = [
   {
     title: "KENALI DIRI SENDIRI",
     description:
