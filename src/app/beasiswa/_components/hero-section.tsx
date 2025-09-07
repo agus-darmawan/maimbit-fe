@@ -18,40 +18,34 @@ export default function HeroSection() {
       <div className="relative z-20 text-left text-white max-w-4xl">
         <div className="flex items-center gap-3 mb-4">
           <Image
-            src="/images/homepage/card/user_icon.png"
+            src="/images/homepage/card/cap_icon.png"
             alt="Icon User"
             width={48}
             height={48}
             className="w-20 h-20"
           />
           <h1 className="text-3xl md:text-5xl font-bold text-yellow-400">
-            Kenali Diri Sendiri
+            Beasiswa
           </h1>
         </div>
 
         <p className="text-base md:text-lg leading-relaxed opacity-90 mb-8">
-          Kenali Diri Sendiri dirancang sebagai wadah pengembangan pribadi yang
-          komprehensif. Fitur ini menyediakan serangkaian asesmen, tes
-          psikometri, dan alat analisis yang membantu Anda memahami kekuatan,
-          minat, serta area yang memerlukan pengembangan diri. Tujuannya adalah
-          untuk memberikan pemahaman objektif mengenai potensi diri Anda,
-          sehingga Anda dapat membuat keputusan yang lebih strategis terkait
-          pendidikan, jalur karier, dan pengembangan karakter secara
-          keseluruhan.
+          Cari Beasiswa di Maimbit merupakan pusat informasi terpadu yang
+          menyediakan akses ke berbagai peluang beasiswa dari institusi
+          terkemuka di dalam maupun luar negeri. Basis data kami dikurasi secara
+          ketat dan diperbarui secara berkala untuk memastikan informasi yang
+          akurat dan relevan. Selain daftar beasiswa, fitur ini juga menyediakan
+          panduan lengkap mengenai prosedur aplikasi, kiat menulis esai yang
+          persuasif, serta tips persiapan wawanca ra yang semuanya bertujuan
+          untuk meningkatkan peluang keberhasilan Anda.
         </p>
 
         <div className="flex gap-4">
           <Link
-            href="#tes-minat"
+            href="/beasiswa/#beasiswa"
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition"
           >
-            Tes Minat & Bakat
-          </Link>
-          <Link
-            href="#tes-mbti"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition"
-          >
-            Tes MBTI
+            Beasiswa
           </Link>
         </div>
       </div>
