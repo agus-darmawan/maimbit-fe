@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-start overflow-hidden px-8 md:px-16">
       <Image
-        src="/images/hero/beasiswa.png"
+        src="/images/hero/lingkungan.png"
         alt="Hero Background"
         fill
         priority
@@ -15,37 +15,37 @@ export default function HeroSection() {
 
       <div className="absolute inset-0 bg-black/70 z-10"></div>
 
-      <div className="relative z-20 text-left text-white max-w-4xl">
+      <div className="relative z-20 text-left text-white max-w-5xl">
         <div className="flex items-center gap-3 mb-4">
           <Image
-            src="/images/homepage/card/cap_icon.png"
+            src="/images/homepage/card/recycle_icon.png"
             alt="Icon User"
             width={48}
             height={48}
             className="w-20 h-20"
           />
           <h1 className="text-3xl md:text-5xl font-bold text-yellow-400">
-            Beasiswa
+            Peduli Lingkungan
           </h1>
         </div>
 
         <p className="text-base md:text-lg leading-relaxed opacity-90 mb-8">
-          Cari Beasiswa di Maimbit merupakan pusat informasi terpadu yang
-          menyediakan akses ke berbagai peluang beasiswa dari institusi
-          terkemuka di dalam maupun luar negeri. Basis data kami dikurasi secara
-          ketat dan diperbarui secara berkala untuk memastikan informasi yang
-          akurat dan relevan. Selain daftar beasiswa, fitur ini juga menyediakan
-          panduan lengkap mengenai prosedur aplikasi, kiat menulis esai yang
-          persuasif, serta tips persiapan wawanca ra yang semuanya bertujuan
-          untuk meningkatkan peluang keberhasilan Anda.
+          Sebagai wujud komitmen terhadap tanggung jawab sosial, fitur Peduli
+          Lingkungan mengajak seluruh pengguna untuk berpartisipasi aktif dalam
+          upaya pelestarian alam. Fitur ini menyediakan edukasi mengenai isu-isu
+          lingkungan global dan lokal, serta memfasilitasi partisipasi dalam
+          berbagai program komunitas, seperti inisiatif reboisasi, kampanye
+          pengurangan sampah plastik, dan kegiatan relawan lainn ya. Tujuan kami
+          adalah menumbuhkan kesadaran dan mendorong kontribusi nyata untuk
+          menciptakan masa depan yang lebih berkelanjutan.
         </p>
 
         <div className="flex gap-4">
           <Link
-            href="/beasiswa/#beasiswa"
+            href="/lingkungan/#lingkungan"
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition"
           >
-            Beasiswa
+            Peduli Lingkungan
           </Link>
         </div>
       </div>
