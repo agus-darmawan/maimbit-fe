@@ -19,7 +19,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 border-b border-gray-200/20 bg-transparent backdrop-blur-md uppercase">
+    <nav className="fixed top-0 left-0 w-full z-50 border-b border-gray-200/20 bg-transparent backdrop-blur-lg uppercase">
       <div className="flex flex-wrap items-center justify-between px-10 py-2 mx-auto ">
         <Link href="/" className="flex items-center space-x-1">
           <Image
