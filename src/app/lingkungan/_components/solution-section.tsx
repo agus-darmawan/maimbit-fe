@@ -9,7 +9,7 @@ const upayaList = [
   {
     id: 2,
     title: "Tanamlah Pohon / Reboisasi Hutan Gundul",
-    image: "/images/lingkungan/upaya/rebosasi.png",
+    image: "/images/lingkungan/upaya/reboisasi.png",
   },
   {
     id: 3,
